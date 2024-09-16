@@ -1,0 +1,20 @@
+.loder {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
+  border: 10px solid rgb(228, 236, 14);
+  border-top: 10px solid rgb(253, 127, 255);
+  animation: spinAnimate 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
