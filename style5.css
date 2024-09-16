@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+#container div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+#container {
+  width: 800px;
+  height: 200px;
+  display: flex;
+}
