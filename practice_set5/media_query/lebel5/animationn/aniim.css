@@ -15,19 +15,22 @@ div {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-/*@keyframes myAnimate {
-  from {
+@keyframes myAnimate {
+  from 0% {
     background-color: aqua;
   }
-  to {
+  50% {
+    background-color: gold;
+  }
+  to 100% {
     background-color: red;
   }
-}*/
-@keyframes myAnimate {
+}
+/*@keyframes myAnimate {
   from {
     left: 0px;
   }
   to {
     left: 200px;
   }
-}
+}*/
